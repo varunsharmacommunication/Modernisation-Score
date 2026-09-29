@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light only">
+<meta name="theme-color" content="#F2E8C4">
 <title>Astute Modernization Score | Astute Business Solutions</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧭</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,15 +13,11 @@
 :root{
   --teal:#0B89A1;--sky:#00C6FF;--navy:#003C51;--cream:#F2E8C4;--mint:#E6F4F1;
   --black:#000;--gray:#6D6E71;--gray-l:#BCBDC0;--off:#F6F6F6;--white:#fff;--orange:#FA9137;
-  --bg:var(--cream);--fg:var(--navy);--card:var(--white);--sub:var(--gray);--border:var(--gray-l);
+  --bg:var(--cream);--fg:var(--navy);--card:var(--white);--sub:var(--gray);--border:var(--gray-l);color-scheme:light;
   --font:'Inter',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
   padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
   box-sizing:border-box;
 }
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){--bg:#04222d;--fg:#eef6f8;--card:#0a3040;--sub:#9fb9c2;--border:#134a5e;--off:#0a3040;}
-}
-:root[data-theme="dark"]{--bg:#04222d;--fg:#eef6f8;--card:#0a3040;--sub:#9fb9c2;--border:#134a5e;--off:#0a3040;}
 *{box-sizing:border-box}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font);line-height:1.5;-webkit-font-smoothing:antialiased}
